@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13 23:52:02",
+  "updated": "2026-11-13 23:54:19",
   "groups": {
     "1.2": [
       {
@@ -9,6 +9,11 @@
       }
     ],
     "общие": [
+      {
+        "file": "media/общие/WhatsApp Video 2026-11-13 at 15.51.28.mp4",
+        "name": "WhatsApp Video 2026-11-13 at 15.51.28.mp4",
+        "type": "video"
+      },
       {
         "file": "media/общие/пример-фото.jpg",
         "name": "пример-фото.jpg",
