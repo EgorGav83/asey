@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Фотоальбом · План ОТМ</title>
+<style>
+:root { --ink:#112035; --muted:#65748a; --line:#dbe3ee; --bg:#f2f5f9; --card:#ffffff; --navy:#172d4d; --blue:#2468d8; --blue-soft:#eaf2ff; --red:#d64545; --shadow:rgba(35,57,88,.05); }
+@media (prefers-color-scheme: dark) { :root { --ink:#e6edf7; --muted:#9aa9bf; --line:#2a3a52; --bg:#0e1622; --card:#162131; --navy:#1d3050; --blue:#5b9bff; --blue-soft:#1b2d4a; --red:#f07171; --shadow:rgba(0,0,0,.25); color-scheme:dark; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:Inter,'Segoe UI',Arial,sans-serif; }
+.shell { max-width:1180px; margin:0 auto; padding:28px 16px 48px; }
+header { display:flex; flex-wrap:wrap; gap:14px; align-items:flex-start; justify-content:space-between; margin-bottom:22px; }
+.eyebrow { font-size:12px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:var(--blue); margin:0 0 7px; }
+h1 { font-size:28px; margin:0; letter-spacing:-.03em; }
+.sub { margin:8px 0 0; color:var(--muted); font-size:14px; }
+.btn { border:1px solid var(--line); background:var(--card); color:var(--ink); padding:8px 14px; border-radius:9px; font-weight:650; font-size:13px; cursor:pointer; text-decoration:none; font-family:inherit; display:inline-block; }
+.btn:hover { border-color:var(--blue); color:var(--blue); }
+.group { margin-bottom:28px; }
+.group-head { display:flex; align-items:baseline; gap:10px; margin-bottom:12px; flex-wrap:wrap; }
+.group-head .num { flex:none; width:30px; height:30px; border-radius:9px; background:var(--blue); color:#fff; font-weight:800; font-size:13px; display:grid; place-items:center; }
+.group-head h2 { margin:0; font-size:17px; font-weight:700; line-height:1.35; }
+.group-head .cnt { color:var(--muted); font-size:13px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px; }
+.item { margin:0; background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; display:flex; flex-direction:column; box-shadow:0 6px 14px var(--shadow); }
+.item img { width:100%; height:180px; object-fit:cover; display:block; cursor:zoom-in; }
+.item video { width:100%; display:block; background:#000; max-height:300px; }
+.item figcaption { padding:10px 12px; font-size:13px; line-height:1.4; }
+.item .cap { font-weight:650; }
+.item .date { color:var(--muted); font-size:12px; margin-top:3px; }
+.item .badge-v { display:inline-block; background:var(--navy); color:#fff; font-size:10px; font-weight:800; letter-spacing:.06em; padding:2px 7px; border-radius:6px; margin-right:6px; vertical-align:1px; }
+.state { text-align:center; color:var(--muted); padding:40px 10px; }
+.state.err { color:var(--red); }
+/* полноэкранный просмотр */
+.viewer { position:fixed; inset:0; background:rgba(8,12,22,.93); z-index:60; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:18px; }
+.viewer[hidden] { display:none; }
+.viewer .vimg { max-width:96vw; max-height:82vh; object-fit:contain; border-radius:8px; }
+.viewer video { max-width:96vw; max-height:82vh; border-radius:8px; }
+.viewer .vcap { color:#c9d4e5; margin-top:14px; font-size:14px; text-align:center; }
+.viewer .vnav { position:absolute; top:50%; transform:translateY(-50%); background:rgba(255,255,255,.12); color:#fff; border:0; width:46px; height:64px; font-size:26px; cursor:pointer; border-radius:10px; }
+.viewer .vnav:hover { background:rgba(255,255,255,.25); }
+.viewer .prev { left:10px; } .viewer .next { right:10px; }
+.viewer .vclose { position:absolute; top:14px; right:16px; background:rgba(255,255,255,.12); color:#fff; border:0; padding:8px 14px; font-size:15px; cursor:pointer; border-radius:9px; }
+@media (max-width:640px) { .vnav { width:36px; height:48px; font-size:20px; } }
+</style>
+</head>
+<body>
+<main class="shell">
+  <header>
+    <div>
+      <p class="eyebrow">План ОТМ</p>
+      <h1>Фотоальбом мероприятий</h1>
+      <p class="sub" id="updated">Загрузка…</p>
+    </div>
+    <a class="btn" href="otm-dashboard-live.html">← Дашборд</a>
+  </header>
+  <div id="album"><div class="state">Загрузка альбома…</div></div>
+</main>
+
+<div class="viewer" id="viewer" hidden>
+  <button class="vclose" id="vClose" type="button">✕ Закрыть</button>
+  <button class="vnav prev" id="vPrev" type="button" aria-label="Назад">‹</button>
+  <div id="vMedia"></div>
+  <div class="vcap" id="vCap"></div>
+  <button class="vnav next" id="vNext" type="button" aria-label="Вперёд">›</button>
+</div>
+
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fmtDate = d => { if (!d) return ''; const p = d.split('-'); return p.length === 3 ? `${p[2]}.${p[1]}.${p[0]}` : d; };
+  const isVideo = m => m.type === 'video';
+
+  let FLAT = [];          // плоский список для просмотра
+  let cur = -1;
+
+  async function load() {
+    try {
+      const [media, plan] = await Promise.all([
+        fetch('media.json?v=' + Date.now(), {cache:'no-store'}).then(r => r.json()),
+        fetch('data.json?v=' + Date.now(), {cache:'no-store'}).then(r => r.json()),
+      ]);
+      $('updated').textContent = 'Обновлено: ' + (media.updated || '—') +
+        (plan.meta && plan.meta.doc_title ? ' · источник: ' + plan.meta.doc_title : '');
+      render(media.groups || {}, plan);
+    } catch (e) {
+      $('album').innerHTML = `<div class="state err">Не удалось загрузить альбом: ${esc(e.message)}</div>`;
+    }
+  }
+
+  function render(groups, plan) {
+    const N = x => String(x ?? '').replace(/\.+$/, '');   // «1.1.» -> «1.1»
+    const titles = {};
+    (plan.sections || []).forEach(s => titles[N(s.num)] = s.evt);
+    (plan.items || []).forEach(i => titles[N(i.num)] = i.evt);
+    const used = new Set();
+    const blocks = [];
+
+    const addGroup = (key, title) => {
+      const list = groups[key] || [];
+      if (!list.length) return;
+      used.add(key);
+      list.forEach(m => FLAT.push({ ...m, groupTitle: title }));
+      const cards = list.map(m => isVideo(m)
+        ? `<figure class="item" data-i="${FLAT.length - list.length + list.indexOf(m)}"><video controls preload="metadata" src="${esc(m.file)}"></video><figcaption><span class="badge-v">ВИДЕО</span><span class="cap">${esc(m.caption || m.name)}</span><div class="date">${fmtDate(m.date)}</div></figcaption></figure>`
+        : `<figure class="item" data-i="${FLAT.length - list.length + list.indexOf(m)}"><img loading="lazy" src="${esc(m.file)}" alt="${esc(m.caption || m.name)}"><figcaption><span class="cap">${esc(m.caption || m.name)}</span><div class="date">${fmtDate(m.date)}</div></figcaption></figure>`).join('');
+      blocks.push(`<section class="group"><div class="group-head"><span class="num">${esc(key)}</span><h2>${esc(title)}</h2><span class="cnt">${list.length} файл(ов)</span></div><div class="grid">${cards}</div></section>`);
+    };
+
+    // порядок как в плане: разделы (их медиа), затем пункты раздела, затем остальное
+    for (const s of (plan.sections || [])) {
+      if (groups[N(s.num)]) addGroup(N(s.num), s.evt);
+      for (const i of (plan.items || [])) {
+        if (N(i.sectionNo) === N(s.num) && groups[N(i.num)]) addGroup(N(i.num), i.evt);
+      }
+    }
+    for (const key of Object.keys(groups)) {
+      if (!used.has(key)) addGroup(key, titles[key] || (key === 'общие' ? 'Общие материалы' : 'Пункт ' + key));
+    }
+    $('album').innerHTML = blocks.join('') || '<div class="state">Пока нет ни одного фото или видео. Положите файлы в папку media/ — они появятся здесь.</div>';
+
+    // открытие по клику
+    document.querySelectorAll('.item img').forEach(img => img.onclick = () => {
+      const i = +img.closest('.item').dataset.i; show(i);
+    });
+  }
+
+  function show(i) {
+    if (!FLAT.length) return;
+    cur = (i + FLAT.length) % FLAT.length;
+    const m = FLAT[cur];
+    $('vMedia').innerHTML = isVideo(m)
+      ? `<video class="vimg" controls autoplay src="${esc(m.file)}"></video>`
+      : `<img class="vimg" src="${esc(m.file)}" alt="">`;
+    $('vCap').textContent = `${m.groupTitle} · ${m.caption || m.name}${m.date ? ' · ' + fmtDate(m.date) : ''}`;
+    $('viewer').hidden = false;
+    document.body.style.overflow = 'hidden';
+  }
+  const close = () => { $('viewer').hidden = true; document.body.style.overflow = ''; };
+  $('vClose').onclick = close;
+  $('viewer').onclick = e => { if (e.target === $('viewer')) close(); };
+  $('vPrev').onclick = () => { if (cur >= 0) show(cur - 1); };
+  $('vNext').onclick = () => { if (cur >= 0) show(cur + 1); };
+  document.addEventListener('keydown', e => {
+    if ($('viewer').hidden) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowLeft') show(cur - 1);
+    if (e.key === 'ArrowRight') show(cur + 1);
+  });
+
+  load();
+})();
+</script>
+</body>
+</html>
