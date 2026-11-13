@@ -1,38 +1,50 @@
 {
-  "updated": "2026-11-14 00:01:02",
+  "updated": "2026-11-14 00:03:48",
   "groups": {
     "1.2": [
       {
         "file": "media/1.2/фото-площадки.jpg",
         "name": "фото-площадки.jpg",
-        "type": "image"
+        "type": "image",
+        "caption": "Фото площадки",
+        "date": "2026-11-13"
       }
     ],
     "общие": [
       {
         "file": "media/общие/WhatsApp Image 2026-11-12 at 14.12.40.jpeg",
         "name": "WhatsApp Image 2026-11-12 at 14.12.40.jpeg",
-        "type": "image"
+        "type": "image",
+        "caption": "WhatsApp Image 2026 11 12 at 14.12.40",
+        "date": "2026-11-13"
       },
       {
         "file": "media/общие/WhatsApp Image 2026-11-12 at 16.24.05.jpeg",
         "name": "WhatsApp Image 2026-11-12 at 16.24.05.jpeg",
-        "type": "image"
+        "type": "image",
+        "caption": "WhatsApp Image 2026 11 12 at 16.24.05",
+        "date": "2026-11-13"
       },
       {
         "file": "media/общие/WhatsApp Image 2026-11-12 at 21.17.42.jpeg",
         "name": "WhatsApp Image 2026-11-12 at 21.17.42.jpeg",
-        "type": "image"
+        "type": "image",
+        "caption": "WhatsApp Image 2026 11 12 at 21.17.42",
+        "date": "2026-11-13"
       },
       {
         "file": "media/общие/WhatsApp Video 2026-11-13 at 15.51.28.mp4",
         "name": "WhatsApp Video 2026-11-13 at 15.51.28.mp4",
-        "type": "video"
+        "type": "video",
+        "caption": "WhatsApp Video 2026 11 13 at 15.51.28",
+        "date": "2026-11-13"
       },
       {
         "file": "media/общие/пример-фото.jpg",
         "name": "пример-фото.jpg",
-        "type": "image"
+        "type": "image",
+        "caption": "Пример фото",
+        "date": "2026-11-13"
       }
     ]
   }
