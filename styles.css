@@ -1,0 +1,65 @@
+:root{
+  --bg:#0d1220; --panel:#141b2e; --panel2:#1b2440; --line:#273253;
+  --text:#e9edf7; --muted:#8b96b3; --accent:#4f8cff; --green:#3ddc97;
+  --red:#ff5c7a; --amber:#ffb648;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:'Segoe UI',system-ui,-apple-system,Roboto,sans-serif;font-size:14px}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;
+  padding:14px 20px;background:var(--panel);border-bottom:1px solid var(--line);
+  position:sticky;top:0;z-index:20}
+header h1{font-size:17px;margin:0;font-weight:600;line-height:1.3}
+header .sub{display:block;font-size:11px;color:var(--muted);font-weight:400}
+.spacer{flex:1}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:99px;
+  background:var(--panel2);border:1px solid var(--line);font-size:12px;color:var(--muted)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.dot.ok{background:var(--green);box-shadow:0 0 8px var(--green)}
+.dot.err{background:var(--red);box-shadow:0 0 8px var(--red)}
+button,select,input{background:var(--panel2);color:var(--text);border:1px solid var(--line);
+  border-radius:8px;padding:7px 12px;font-size:13px;cursor:pointer;outline:none}
+button:hover,select:hover{border-color:var(--accent)}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+main{padding:18px 20px 40px;max-width:1560px;margin:0 auto}
+.alert{background:rgba(255,92,122,.12);border:1px solid var(--red);color:#ffb3c2;
+  border-radius:10px;padding:12px 16px;margin-bottom:16px;display:none}
+.alert.show{display:block}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:18px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:default}
+.kpi.click{cursor:pointer;transition:border-color .15s, transform .15s}
+.kpi.click:hover{border-color:var(--accent);transform:translateY(-1px)}
+.kpi .label{color:var(--muted);font-size:12px;margin-bottom:6px}
+.kpi .value{font-size:26px;font-weight:700}
+.kpi .sub{color:var(--muted);font-size:11px;margin-top:4px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+@media(max-width:1150px){.row{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+.card h3{margin:0 0 4px;font-size:13px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.6px}
+.card .hint{font-size:11px;color:var(--muted);margin-bottom:8px;opacity:.8}
+.chart-wrap{position:relative;height:320px}
+.chart-wrap.small{height:250px}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:end;margin-bottom:14px;
+  background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:11px;color:var(--muted)}
+.filters input{min-width:200px}
+#resetFilters{color:var(--amber);border-color:var(--amber);background:transparent}
+.table-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;overflow:hidden}
+.table-tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.table-tools input{flex:1;min-width:180px}
+.table-scroll{max-height:520px;overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{position:sticky;top:0;background:var(--panel2);text-align:left;padding:9px 12px;
+  color:var(--muted);font-weight:600;cursor:pointer;user-select:none;white-space:nowrap;z-index:2}
+th:hover{color:var(--text)}
+th .arr{opacity:.6}
+td{padding:8px 12px;border-top:1px solid var(--line);vertical-align:top}
+td.num{white-space:nowrap}
+td.event{min-width:260px}
+tbody tr:hover{background:rgba(79,140,255,.08)}
+.tag{display:inline-block;padding:2px 8px;border-radius:99px;font-size:11px;border:1px solid var(--line)}
+.tag.work{color:var(--green);border-color:rgba(61,220,151,.4)}
+.tag.decided{color:var(--amber);border-color:rgba(255,182,72,.4)}
+.tag.none{color:var(--muted)}
+.empty{color:var(--muted);text-align:center;padding:60px 0}
+footer{margin-top:20px;color:var(--muted);font-size:11px;text-align:center}
