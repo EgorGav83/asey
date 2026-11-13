@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Сводный план ОТМ · ноябрь 2026 — январь 2027</title>
+<script src="vendor/chart.umd.min.js"></script>
+<script>
+if (typeof Chart === "undefined") {
+  document.write('<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"><\/script>');
+}
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1 id="docTitle">Сводный план ОТМ · ноябрь 2026 — январь 2027</h1>
+  <span class="spacer"></span>
+  <span class="pill"><span class="dot" id="statusDot"></span><span id="statusText">загрузка…</span></span>
+  <span class="pill">данные от: <span id="lastUpdate">—</span></span>
+  <span class="pill">проверка: <span id="nextPoll">—</span></span>
+  <button id="btnRefresh" class="primary" title="Перезапросить данные">⟳ Обновить</button>
+</header>
+<main>
+  <div class="alert" id="alert"></div>
+
+  <div class="kpis" id="kpiGrid"></div>
+
+  <div class="filters" id="filters"></div>
+
+  <div class="row">
+    <div class="card">
+      <h3>Мероприятия по разделам</h3>
+      <div class="hint">нажмите на столбец — отфильтруется раздел</div>
+      <div class="chart-wrap"><canvas id="secChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Распределение по месяцам</h3>
+      <div class="hint">пункт попадает во все указанные месяцы</div>
+      <div class="chart-wrap"><canvas id="monthChart"></canvas></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="card">
+      <h3>Статусы</h3>
+      <div class="hint">нажмите на сектор — фильтр по статусу</div>
+      <div class="chart-wrap small"><canvas id="statusChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Топ ответственных</h3>
+      <div class="hint">нажмите на строку — фильтр по человеку</div>
+      <div class="chart-wrap small"><canvas id="respChart"></canvas></div>
+    </div>
+  </div>
+
+  <div class="table-card">
+    <div class="table-tools">
+      <input id="search" type="text" placeholder="Поиск по всем столбцам…">
+      <span id="rowCount" style="color:var(--muted);font-size:12px"></span>
+      <span class="spacer"></span>
+      <button id="exportCsv">⬇ CSV</button>
+    </div>
+    <div class="table-scroll">
+      <table id="dataTable"><thead></thead><tbody></tbody></table>
+    </div>
+  </div>
+  <footer>Данные обновляются автоматически с документа «План ОТМ ноябрь-январь от 05.11.2026» · страница проверяет обновления каждую минуту</footer>
+</main>
+
+<script>window.DASH_MODE = "public";</script>
+<script src="app.js"></script>
+</body>
+</html>
