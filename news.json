@@ -1,23 +1,322 @@
 {
-  "updated": "2026-11-14 00:28:13",
-  "source": {
-    "kind": "file"
-  },
+  "updated": "2026-11-14 00:28:51",
+  "sources": [
+    {
+      "kind": "telegram",
+      "name": "@IGRgeoculture",
+      "url": "https://t.me/IGRgeoculture"
+    }
+  ],
   "items": [
     {
-      "date": "2026-11-14",
-      "title": "# Новости для сайта. Блоки разделяются пустой строкой.",
-      "text": "# Формат блока:\n#   ГГГГ-ММ-ДД · Заголовок\n#   Текст новости (можно несколько строк).\n# Если дата не указана — берётся дата изменения этого файла."
+      "date": "2026-11-09",
+      "datetime": "2026-11-09T08:30:08+00:00",
+      "title": "Альбина Дегтярева и Инна Донская: якутская культура покорила москвичей и казанцев",
+      "text": "Хомусист-виртуоз мира Альбина Дегтярева и певица Инна Донская вернулись после серии успешных выступлений в Москве и Казани.\nМосква: триумф с якутскими кузнецами\n1 ноября Альбина Дегтярева выступила в Москве на торжественном закрытии Всероссийской выставки «Клинок — традиции и современность». Также в программе было выступление певицы Инны Донской — финалистки гран-при Всероссийского конкурса «Родники-Дальний Восток», отличника культуры республики.\nНа выставке якутские кузнецы завоевали 29 призовых мест, их уникальные хомусы и ножи традиционно высоко ценятся экспертами. Триумф с ними разделили якутские артистки.\nКазань: «Маленькая Якутия» и союз регионов\n4 ноября, в День народного единства, Центр уникального мастерства (ЦУМ) в Казани принял более 7 тысяч гостей, став местом притяжения, благодаря двум культурам. Праздник объединил сразу три знаковых события. Нижнекамск официально открыл республиканский конкурс «Культурная столица Татарстана». В казанском ЦУМе открылось постоянное представительство «Маленькая Якутия»: теперь жители и гости Татарстана могут круглый год знакомиться с культурой Севера и приобретать изделия якутских мастеров — ювелирные украшения, работы из мамонтовой кости, кожи и меха. Кроме того, главы Якутска и Нижнекамска подписали масштабный план совместных мероприятий на 2027–2029 годы.\nВ Казани восхитились мощью якутского искусства\nКульминацией праздничного дня в Казани стал большой вечерний концерт. На одной сцене с ведущими татарскими исполнителями выступил звездный десант из Якутии: ансамбль танца «Ай Көт» Детской школы искусств №1 г. Якутска, Инна Донская, исполнившая авторскую песню, и Альбина Дегтярева – виртуоз-хомусист мира, заслуженная артистка РС(Я). Выступления вызвали настоящий фурор. Зал аплодировал культурному десанту из Якутии стоя, а после завершения программы зрители долго не отпускали артистов со сцены, выражая восхищение и благодарность за уникальное погружение в философию и звуки северной природы.\nПрошедшие гастроли в очередной раз доказали, что самобытное искусство Якутии способно объединять регионы, покорять сердца и становиться мостом дружбы между народами России.",
+      "link": "https://t.me/IGRgeoculture/1803",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/X-EOid-zwaJT4V3uBKiYH9ViUZN0G-2SN5EpIbVGjNdZrSolrUx5yKGIAYXHE45k9OFCxfeTO8qChF4ZS2IXShOPvJqOub0s3vRPPv-FM2hq5SRQd7VdBvHa-in8d2ew98VFVzjOoYhfEp_V9yNm0sDvQ7EAphduA5lNhPOlS9sILL4krrB1pHrVOy6-6MmiepZOe-V-kREUUKwV-IXvzxxTBjZdPj6tyT5KkiaSOjpsGHaGERgDGam0SyVKzUJ1vUf4lqk8ekUW5jTYAigyEnFiDJaI4GY_Wi4qEQG_ykky94jOBqA1gVVx0me8uycvYsxyIJo1213j_8gxtWE7Iw.jpg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
     },
     {
-      "date": "2026-11-14",
-      "title": "Раздел новостей запущен",
-      "text": "Теперь новости публикуются прямо на сайте. Добавьте блок по этому образцу — через пару минут он появится на сайте."
+      "date": "2026-11-09",
+      "datetime": "2026-11-09T06:02:17+00:00",
+      "title": "БЛОГИНГ С НУЛЯ",
+      "text": "Арктический центр эпоса и искусств проводит курсы для блогеров в рамках\nШколы креатива\nВ двухдневной насыщенной программе:\n-Мастер-классы трех известных блогеров и креаторов.\n-Создание текстов (посты, заголовки, рекламные тексты).\n-Создание видео- фотоконтента (занятие ведет опытный специалист).\n-Инфографика (занятие ведет опытный специалист).\n-Монетизация блога (занятие ведет также опытный специалист).\nЦена курсов – 3000 рублей.\nПрошедшим курсы выдается удостоверение установленного образца.\nТелефон для записи: 8914-263-84-37\nerid: 2Vtzqv3bc2r\nРеклама. ИП Саввинов И.Д. ИНН 143509597288",
+      "link": "https://t.me/IGRgeoculture/1802",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/AQafZluV8Jp5nsEqst2S377WmcZpavx1HZS0M2y-dIX4UwkJXaa9Zws4yDZcmpHj7eRqBgKz0JxygXZre9HmvWDT_NsJ3Ys4doSWGY3GjEclchkFyZnvgEz7sXcflmwPN1hNINZgBbuu4eGvOkyYCfuo4cft0V4-jUVn9IGSMpxXNTsrYqkhf_mc7OqBkMjOsca2xxD8A8ZfHLucopy3BKiR2jAuBuHA65YJX25MmkxM6szmV5ea59F3M2X3gcRSGnLA-zPYYOAIu7n8f_LDAkIn9i4krD0leZ9fZ1VZJHx3DOyEatv4cckMto1-8ggIOoWOqybIi8Btss8w7dZO1w.jpg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
     },
     {
-      "date": "2026-11-12",
-      "title": "Фестиваль «Желанный берег»",
-      "text": "Идёт подготовка программы Международного театрального фестиваля. Программа на 4 листа утверждена 03.11.2026."
+      "date": "2026-11-03",
+      "datetime": "2026-11-03T06:56:58+00:00",
+      "title": "Все на осуохай единства!",
+      "text": "В День народного единства - 4 ноября в столице Якутии состоится праздничный митинг-концерт у памятника основателя города Петра Бекетова. В финале «Осуохай единства» - «Сомоҕолоһуу оһуохайа», посвященный Году единства народов России.\nСохраняя традиции, мы приобщаемся к нашей общей истории, вносим вклад в укрепление дружбы и согласия между народами России.\nПресс-служба Окружной администрации г. Якутска",
+      "link": "https://t.me/IGRgeoculture/1801",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/rm7mhsL3rrggMVOmh7w2SmGZIdsSF-LP-Z4u04TrG4M-iOxxByj0XO2syCbo7w82wGAW0gA5ULZQRF9kkXI8VI7CpdrXGoIojYdptLzowSw_2XRKroYLt0r_RAKVz3K8zjcurzfelrZU2HLdmbJzxXmf1rkRo7IWiWwY76MNkqJ0Ev5D3qbm_LyHAILK_DyesEaP8U9V3Vpd6AH74omPpBqZrAe0uMHHdQW9k0E8tW-yiziPNJ2IoEYdX2lc3viKQ2cFO_2vw2liFnmIEKnTiJRn_Xp9OOE6kbh-5HcfI2IsUbinafX1WvSzhl2FcfyU04XujtaR3JqJPqR_yX2Ayw.jpg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "datetime": "2026-10-31T03:21:23+00:00",
+      "title": "Андрей Борисов представит в Москве спектакль «По ту сторону сна»",
+      "text": "Он будет показан в рамках X фестиваля «Биеннале театрального искусства. Уроки режиссуры»\nВ Москве пройдет X фестиваль «Биеннале театрального искусства. Уроки режиссуры» 2026. В программу вошло 17 спектаклей со всей страны, и одним из ярких событий станет показ постановки якутского режиссера Андрея Борисова — спектакля «По ту сторону сна» по произведению Николая Лугинова. Для Москвы это уникальная возможность увидеть постановку одного из ведущих мастеров отечественной сцены.\nФестиваль «Уроки режиссуры» традиционно проходит при поддержке Президентского фонда культурных инициатив и Центра наследия Антона Рубинштейна. В этом году событие отмечает 10 лет. На главных сценах столицы зрителей ждут недавние премьеры театров из Майкопа, Вологды, Чебоксар, Севастополя, Челябинска, Санкт-Петербурга, Новокуйбышевска, Глазова, Якутска, Москвы и Московской области. Важно отметить, что все постановки региональной программы Москва увидит впервые.\nЗвездный состав участников\nРежиссерский состав фестиваля в этом году поистине впечатляющий. В конкурсной программе примут участие прославленные мэтры: Денис Бокурадзе, Андрей Борисов, Алексей Бородин, Евгений Гельфонд, Кама Гинкас, Жанна Демихова, Лев Додин, Сергей Женовач, Евгений Каменькович, Григорий Лифанов, Борис Манджиев, Владимир Машков, Константин Мишин, Владимир Панков, Яков Рубин, Дамир Салимзянов и Валерий Фокин. Андрей Борисов представит спектакль «По ту сторону сна» по повести-притче Николая Лугинова. Якутский режиссер, чье имя давно вписано в золотой фонд театрального искусства, представит московской публике свое видение произведения Лугинова.\nУчастие Якутии в фестивале такого уровня подчеркивает высокий статус региональной театральной школы и ее неразрывную связь с общероссийским культурным процессом. Уникальный формат и Офф-программа Фестиваль «Уроки режиссуры» — единственный в мире театральный форум, где режиссеров оценивают только режиссеры. Каждый год мэтры и начинающие постановщики меняются местами: одни представляют свои работы, другие — судят. В жюри юбилейного фестиваля вошли молодые режиссеры, участники и лауреаты прошлых лет: Ася Князева, Илья Зайцев, Фамил Джавадов, Федор Пшеничный, Александр Локтионов, Сергей Тонышев и Саша Золотовицкий. Помимо основной программы, зрителей и профессионалов ждет насыщенная oфф-программа. В рамках образовательного проекта «Мастерская» пройдут открытые лекции и мастер-классы выдающихся артистов и театроведов. В ноябре на Чистопрудном бульваре откроется фотовыставка «Мастерская: лица и слова», посвященная юбилею фестиваля. Также состоится круглый стол, объединяющий практиков и теоретиков современного театра, и продолжится спецпроект «Библиотека Биеннале театрального искусства». Лабораторное направление включает практикум по театральной критике и интенсив для драматургов совместно с СТД РФ. Торжественная церемония закрытия фестиваля состоится 11 декабря в РАМТе.\nЯСИА.",
+      "link": "https://t.me/IGRgeoculture/1800",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/LCOB5IE5SmvNGcg9vrtfQfVA8vcofZZuNVtOT-aYKWZrnSOlTEFSxPe5GORqd5Nx2UR5_mWSSN_takJi-i5WLsBBEevI6FElC0nfB6b5y-pCFRBCEDsAP1AQfvh2znc3MCVuLp10GDarcd6Qw9ez0PrRQ4QBuntyrMSGYd-imAvfJOdAuI-nuJb7S8vP0ZoDpiVAXBaBMONckxoKuWR9NzC05_PIRFtf5u6fCq75623-qhuZDOVMoVevDCD0VjnFrI80pO8wtB4DxXNkHl42HE8WlmuMm-RMVmLlfHygr58akpmY1u9echUS8xi66-IVzQ-7hYc4VxCaZc_KFDZeMQ.jpg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "datetime": "2026-10-29T21:10:31+00:00",
+      "title": "Алексей Еремеев пообещал «небо в алмазах»",
+      "text": "Председатель якутского парламента Алексей Еремеев дал интервью «Российской газете». В нем есть очень серьезное обещание; и если он его не выполнит, это будет профанацией всей работы Ил Тумэна.\nРечь в интервью шла о принятии сложного бюджета на следующий год. Для начала спикер похвастался, что впервые за годы полностью профинансирована отрасль ЖКХ. Хотя стоит ли этому радоваться? В Якутии без отопления – гибель, так что как мы прошли последние годы – наверное проскочили по тонкому льду.\nДалее корреспондент говорит, что  сокращены расходы на другие статьи: сельское хозяйство, льготное лекарственное обеспечение, внутрирайонные и арктические авиаперевозки, санавиацию, обязательства перед детьми-сиротами и многодетными семьями.\nНа что Алексей Еремеев отвечает:  «Это стандартная картина для первого чтения. Мы еще не до конца видим всю финальную доходную часть бюджета, так как впереди нас ждет распределение федеральных дотаций, субсидий и субвенций, а также уточнение наших налоговых поступлений. Все эти важнейшие социальные статьи расходов обязательно будут наполнены ко второму чтению».\nЧто ж, второе чтение через месяц, там и посмотрим, насколько будут выполнены обещания.",
+      "link": "https://t.me/IGRgeoculture/1799",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/WcB2k6w7lgHzssqy5187imxekY21M-vwnyhcRkzn88HXmGZJsA2NHKrFfBLVCnMWcengY5LpX3o7bhLbREZkfBrZw7FlD6w7LUccHrU-uLC2KssFE78SfEvOZA4xY7bLS0Jp0mgxExyiZ9JHYpayV2NKDOphj9bnWR0rpe62tOuTg6lnS-qPjg9lsqvupguG_kvkMql2QGUzurL5bQ8YhQiTjHzyRW6bcPCYYcLn1wwPUsiT8NSir9przPS2Msyk6wHdjgoIp_k0o8rdIlqp9iBnUc_aQVf-tQk5VS59BOIW1z-J5okxvE855TvV-nladI8XETD_FwZehdOGaf__FA.jpg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "datetime": "2026-10-27T00:04:34+00:00",
+      "title": "Айсен Николаев: обеспечить всем необходимым",
+      "text": "Глава Якутии Айсен Николаев на совещании с правительством говорил о необходимости финансирования первоочередных обязательств, включая заработную плату, электроэнергию и теплоснабжение.\nТакже речь шла о своевременных поставках топлива, лекарств. В целом каждому министерству внимательно подходить ко второму (окончательному) чтению бюджета республики.\nНапомним, что в этом году, пожалуй, самый сложный бюджет за всю новейшую историю Якутии - денег не хватает на многие статьи расходов.\nФото ЯСИА.\nМы в МАХ: https://max.ru/id143509597288_biz\nВ VK: https://vk.com/club211226884",
+      "link": "https://t.me/IGRgeoculture/1798",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/dCWyIv9RK2NPGAFFlWw_Pa6cPUwF7ZNeKVfSyAY_fYT4611UngHUb9FAbIhuKDFv-9opKeA3YJkkFxUwZx3UKRV2b5toRhEGNhzL19CVhznWBM99wWpHC1zDeql0H9hxooVS5dP2tTp2IEutca59Rd6vi8QBqF2PNppPZv214Bi3Rfl_ZPQcB3fv6o4gWaU8ELBc3ZGChZCmokDQfIPReaz2_w30C-9K9T2LLyvYAnu2QaUYGfpijqRgSvmEouPpQCSSZZ9FpMQ52jcKQrwtIlD5-jjS1Scg6YgNVpk28abtZ9i20iQmIFbHS-unkFhdUpip-ozZ9wVbBAAp8YncJA.jpg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "datetime": "2026-10-26T09:02:24+00:00",
+      "title": "Фото",
+      "text": "",
+      "link": "https://t.me/IGRgeoculture/1797",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/nsgAg2B_eN1t3f4ng0B6aG5KLJPK5Bzjgsm0dPho0QQdszp2ZDfyZ3BamMsOAjLDtdAFRjPJSOt2sqz9XtvNakubWr0pEzqs7-Cfx4a5k9hkI2d5DQ4l1kg7DIMRLSbNm2Q9eMt01QOhj2xo-tm4fxlws3xOcvx27M27GjQDFj1SFJFdAEVF5xK4qu8-7FG6FiMFNjRROoPSyLyVkQBeAJKqcbp-bgQlvO3szH3VWLrPax3y_dADPKjRcki1x6YINayy7A258WFg33jjBFEWWl8_Gw5-ZCyHETNXbwyrpl5Vy3KWXarbaE-1HjuOcwtZRkIymnGrsmUsuzcCcRLVxQ.jpg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "datetime": "2026-10-26T05:19:34+00:00",
+      "title": "УРОВЕНЬ КОМФОРТА В ЯКУТИИ ПАДАЕТ?",
+      "text": "Время от времени поднимается вопрос о том, почему люди, особенно молодежь, уезжают из Якутска на ПМЖ в другие места? Конечно, есть разные причины; например, молодежь тянется в мегаполисы, где они хотят сделать карьеру, заработать деньги. Пожилые едут за переехавшими детьми и внуками.\nНо в основном, конечно, все зависит от уровня комфорта. Что с ним в Якутии? Понятно, что арктическим районам здесь очень сложно. Суровый климат, долгая полярная ночь, отсутствие мест «куда пойти», высокие цены – это все давит на человеческую психику. Центральная и южная Якутия более комфортны, здесь есть возможность быстро и сравнительно недорого уехать в другие точки мира, особенно используя различные северные льготы. Ниже цены, много мест для культурного времяпровождения.\nВообще рейтинги городов по уровню комфорта строятся на доступности и качестве медицинского обслуживания, уровне культуры и образования, экологии, преступности, качестве инфраструктуры. Немаловажны стоимость жизни и уровень доходов населения. Якутск здесь, скорее всего, крепкий середнячок. У нас все в порядке с культурой, местами отдыха, возможностью для получения образования, особенно я бы отметил хороший уровень медицины.\nНо в последнее время – это очевидно - уровень комфорта у нас падает. Несмотря на то, что строятся различные социальные учреждения – школы, больницы, объекты культуры. И связано снижение качества жизни с удорожанием всего при отсутствии роста доходов. Растут цены на жилищно-коммунальные услуги, различные товары и все прочее. Поскольку только в этом году цены на топливо подскочили процентов на 20-30, а бюджет республики трещит по швам. Нет денег на субсидирование авиабилетов, поддержку села, даже на зарплаты бюджетников и их индексацию. Конечно, это скажется на оттоке населения в другие региона страны и мира.\nЧто делать? Вопрос, конечно, интересный. И ответить на него очень сложно. По крайней мере, от власти мы ответов не слышим.\nПока можно констатировать одно – свободный человек волен жить там, где хочет. Се ля ви\nМы в МАХ: https://max.ru/id143509597288_biz\nВ VK: https://vk.com/club211226884",
+      "link": "https://t.me/IGRgeoculture/1796",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/UuiO4X7eXLWhWZAz9YBIoCL04GMnOGoPo9MCxiz90B5X99OtmCGZ6W3WBnwZ7GtbnTIoT9VM7qQZ33VW61zh5t_N6wJ-8f2nYhFR6T1DsMYfGoLjpE-y56htUd1Tk1o1TQhebQ5d8Us6wQDMq4Zu3dxXJtbxK6mpv8e0yn2vJGsn7_PHqjQrbgEZDF98y6qjoqCcvOg0OfvMCDjbbvLKwINRvof9b1tRSc19rDuAqZDpjmD97w7Bu-lON30qevamwhN2eN0vPMk4PYxCwHdAfzkfS8oJJMSGLbjalq-XhddFXGxoXmetSqTRTTshkqbIOa8hXwSyyxM79duf53eitQ.jpg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "datetime": "2026-10-24T04:30:15+00:00",
+      "title": "",
+      "text": "",
+      "link": "https://t.me/IGRgeoculture/1795",
+      "media": [],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "datetime": "2026-10-12T01:06:31+00:00",
+      "title": "Мэр Якутска предложил построить два автомобильных моста",
+      "text": "Мэр Якутска Дмитрий Садовников во время объезда посетил Теплое и Сайсарское озера. По его словам, главная проблема этих городских объектов — неопределенность с их юридическим статусом. Глава города поручил разобраться с бесхозными сооружениями, а также рассказал о перспективе строительства двух автомобильных мостов и планах по сохранению экосистемы Сайсарского озера.\nПодробности: https://sakhaday.ru/news/mer-yakutska-predlozhil-postroit-dva-avtomobilnyh-mosta-cherez-teploe-ozero?from=copy",
+      "link": "https://t.me/IGRgeoculture/1791",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/oFnTxu_tgw3SBDWk5LZzD-bu4u0mIlrSa0lhA6upRs2g9WuCmrUJLT_J18B8wPc5vqv6IvxPBZ3cA5VWMtbPpOLKHON-H72PewcdWwl9J_c8j5oTwa2ao3aToZbgmwckxckTGbW7r0g1COiWVK_3boVUBiRxomNtCMpmTbyUeHH8SE-imysYePeYMIHzTamO9Rx2OE59vMsjlrGzeAWvnrNxZkmRNuoIl_LekNfhOgdmFSvSQMPcnZFBwp3YJfKVvetMOSq6HDG0ck2kAluj566f68dI2MRMTDxZawlPPXi6mJ5bm6hXPLlx9TLzrspW7i7rIXEuxDgL_QPN2qnOeA.jpg"
+        },
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/sB2GKpFqyey_4seWFdcySNtPgoe-3bB_BecbBQ-Rgy0xWlqMMbg74Dn_8GicC5DrTUEXEOZSvAKD5R9GYqqhWKe1bZIpPN64bKqqfrWiS8QmKARnxXqZeYRnl6UOBVz5brTE4SP8mcVqZ3clp4PxghQlG02lAQivjJ0fTErbqXRxgI-coY8y-xUdJb_NgrV5Gckbm9_lKW8S84aS2a9xSkjRIBZWhawTpaAp3jce-FSPz9uNs8GgGGRfFUK3nWxouzkYaM-jha5gWWoBUaQFffx-XV4JaSyhasDWT1DnAh_kXcO8b9B_SgLLveBoWpQ23ZqpAI30yOGgIm_IC7y3Qw.jpg"
+        },
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/EObxgYy8DYeAxpk0lvrGo0iAXQOazUb_PEupGfNpTvG7Mt5AMLlWdUCv_ki2dziuf8vwAB0BgSKbOmyEzrpcP0nZeA3gE2LtE_uyKymNlYqz7HWZHEtZ9AZFN-450GyfA3ydG6evMnhxyMvuzbOrtmT6ArlSt4-l8okwzXBR8kT4wuIfF0NqrH073TcdYEAh8R46he8J4-QUjaXcCGH5T_Uhv4BIUTJggsYXFid9CCB5X6yupMX60TjC8F5ZnV0Q7SGr6M2ZS3oAUggzixnqNTaBGeRuS6BXM5Qtn7pP9g2hnLHqKGR8A8G9Ad1UROXBosFkyAdcj8i94HElffC9mg.jpg"
+        },
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/oLYh7gZTiO_7wYKm8ID43WxGOfYBiJ4EBU4qbWCU1zKX02ShCqKuTF0Pd_N8DiCZ8TXjfMdPGXbl6bSDN4D1MpbfDqoZRx9G0XLqRd6_GqcjQAzUoWG8gF-Rh65_v22lI0coBgmI1nAWXmTlOOpTOMur0lEsiqThNBA75XuLmR8eweFAUHjPlS4Fg9iAk99fMiZ54NeLr9mM8OuPvNXawsOTtgt8KIzZgz56v4YbE97av7vHtaXM58T4IwvZHYkbHkMaEMFKvYcZtbu3Seb3f4YFuoRwcVqmqvizLDva1SIVhTdqNC6kUM9lmxoxnHwK9VZxqjNrlXMqn5i9rdMMcg.jpg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "datetime": "2026-09-25T03:08:29+00:00",
+      "title": "Альберт Семенов: «В новой редакции Устава предлагаем усилить роль депутатского корпуса»",
+      "text": "Якутская городская Дума продолжает работу над новой редакцией Устава городского округа «город Якутск». Председатель Якутской городской Думы Альберт Семенов провел повторное заседание специальной комиссии, на котором депутаты детально обсудили положения проекта. Альберт Семенов сообщил коллегам, что в настоящее время документ направлен Главе города, в прокуратуру, Управление Министерства юстиции России по Республике Саха (Якутия) и Контрольно-счетную палату для получения предложений и необходимых заключений.\nДействующий Устав городского округа «город Якутск» был принят Якутским окружным Советом в 2007 году. С момента его принятия в документ неоднократно вносились изменения в связи с изменениями федерального и республиканского законодательства. Сейчас Якутская городская Дума готовит новую редакцию Устава, которая должна заменить действующий документ и учесть современные требования к организации местного самоуправления.\nПо словам председателя Думы, работа над новым Уставом касается не только приведения муниципальных норм в соответствие с изменившимся законодательством.\n«В новой редакции Устава мы предлагаем усилить роль депутатского корпуса, в том числе его контрольные полномочия. Для нас важно, чтобы депутаты имели необходимые инструменты для участия в решении вопросов местного значения и контроля за их реализацией», — сказал Альберт Семенов.\nСейчас проект проходит этап согласования. После получения заключений и предложений от Главы города, прокуратуры, Управления Минюста и Контрольно-счетной палаты комиссия продолжит его доработку. Затем проект новой редакции Устава будет вынесен на публичные слушания, где жители смогут представить свои предложения и замечания.\nПресс-служба Якутской городской Думы\nНовости Якутской городской Думы в мессенджере МАХ: https://max.ru/channel_yktgorduma",
+      "link": "https://t.me/IGRgeoculture/1790",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/SfiLJniC5E9sE-feoXyj1_ANbBlpRIZNCKAQEeAWAQ1DmGvHSYRWyDM5_2fSgHvfkoba6fmcVLQnFpKpqChjWTaU-taDf9DWUUoPN3b9TguK-XaUcF-CcIUz0Q9L-YwPgXdjaNNBMTdXIDosUTAKUbme0CiacxqQAj3YkSjXvsanZpGpNH9sknkZUTT3Lnxnm79vX0-eXES3324ktTrbCwueiWNacaTYSoBtyjONz9WjgftVmdNECTyUa5yzeHXCJPQLSFMTnrUwBVXi5YJsjFGGIDtGRaxCfj2xBuUumgk5DVlmQAdnpEiIgvbRLvNxCgvLQYWpLCnqLCPw3H2ISg.jpg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "datetime": "2026-09-23T04:53:07+00:00",
+      "title": "Верховный Суд Якутии повторно признал законным присвоение наименования «Площадь Республики» в Якутске",
+      "text": "22 сентября 2026 года Верховный Суд Республики Саха (Якутия) повторно удовлетворил апелляционную жалобу Якутской городской Думы и отменил решение Якутского городского суда от 13 февраля 2026 года о признании недействующим решения Якутской городской Думы о присвоении наименования «Площадь Республики» части общественного пространства в городе Якутске.\n«Мы изначально были убеждены в правомерности принятого решения. Это важный итог кропотливой работы и подтверждение того, что мы действовали в рамках закона и с опорой на интересы горожан всех возрастов», - отмечал ранее председатель Якутской городской Думы Альберт Семенов.\nНапомним, 20 мая 2026 года Верховный Суд Республики Саха (Якутия) уже удовлетворял апелляционную жалобу Якутской городской Думы и отменял решение Якутского городского суда. Однако административный истец обратился в Девятый кассационный суд общей юрисдикции с жалобой. Административное дело было направлено на новое рассмотрение в ином составе судей в Верховном Суде Республики Саха (Якутия).\nСудебная коллегия Верховного Суда Республики Саха (Якутия) рассмотрела апелляционную жалобу, согласилась с доводами Якутской городской Думы и отменила решение суда первой инстанции.\nРешение Якутской городской Думы о присвоении наименования «Площадь Республики» признано законным.\nВопреки позиции административного истца, в столице Республики Саха (Якутия) остаются существовать и площадь Ленина, и площадь Республики.\n«Все прекрасно осознают значимость В.И. Ленина в образовании Якутской АССР и его вклад в развитии нашей республики. Мы чтим и уважаем свою историю, и понимаем, что это историческое пространство имеет важное значение для многих поколений нашего города. Именно поэтому площадь Ленина с памятником продолжает оставаться на своем месте», - добавил Альберт Семенов.\nРешение Верховного Суда Республики Саха (Якутия) вступило в законную силу.\nПресс-служба Якутской городской Думы",
+      "link": "https://t.me/IGRgeoculture/1789",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/IJxp85hGniZ6MStBfjb5frHVwBT9JwlGDo4Pi1s2NydStJ8A9OKBpOUQMSD4Tus-uCc1s6XUcoEBklloLdOev5ZA-IaRHisEKc3kcFzlMXqbgF7MXhIVH88L3sEZJSD2ieYv-wsXBC9HUZTTsBJyQXN8NJpXwboSr1iohx-0-5cGujrc5ho7ZO1vHymXjIFirq5TeIvXc-RrL2PpsPZSWwDUnEvLkpEMx99kXmPNS6w5CSrYoVnEIIepLz8a3F4AaXXqcguuPtmLp5U2StWIWGe0S1jQv-PxGtwq-ZskR8tDzvcJqJy7WgEntQvl4mAKlJ9krZO8aCfwJRqlpNq2Zw.jpg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "datetime": "2026-09-20T21:42:34+00:00",
+      "title": "Якутия не отстает",
+      "text": "Уже можно говорить, что руководство Якутии отработало на выборах на твердую пятерку. Теперь надо смотреть по среднему результату по России. Судя по всему, в нашей республике результат будет для \"Единой России\" приближаться к этой цифре. Ну и по депутатам все получилось, как и задумывалось в коридорах власти. Напомним, что пять лет назад, на прошлых госдумовских выборах наш регион стал практически красным - КПРФ набрала 35,15% голосов, «Единая Россия» — 33,22%. Также на несколько процентов коммунист Аммосов победил единороссовца Черкашина. Однако тогда по дальневосточным спискам в Госдуму прошла от ЕР Галина Данчикова.",
+      "link": "https://t.me/IGRgeoculture/1788",
+      "media": [],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "datetime": "2026-09-14T10:42:10+00:00",
+      "title": "14 сентября. В Якутске снег. Пока что мокрый",
+      "text": "",
+      "link": "https://t.me/IGRgeoculture/1787",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/n8UEWwve6NPN5dY1n_DfUkUZWbaMUREBXDV4vboYPQuP8mv_u0kprS8r9U0uS-OvNR9qBoM5fNOwpdiS1Keo_3bNMdgHlCqzBzhD8hLZkVxbiBa91m6A9U3JIfQbUZGtetWUT3G-tzC0YZqnJ70DURiw2IHgW111dH3hLIKe010B_EnoCwk-CV0hzBNaJdeRHU6e_YwuVu3k2cJBTp8vU5W3RTSdaE8fyvCkHvBr1C8ZDS0xn8P4Wwdjp1ZVIjd9ppEsQ8r6mzQdHsbmE_n2Ie2NLKQ1CfS_GB-8xuo_aqOZ_vN4dmMHg2YlRrozmtILjkkf9S4H4siBdrbM9s8qvg"
+        },
+        {
+          "type": "video",
+          "url": "https://cdn4.telesco.pe/file/419d45d8ef.mp4?token=T4W-w82EjZScPuSsFMt82eq-DTxrMfE3Z2o3yjuApYQnotoUyUSrKVAc9wO6Wp1cgHn7NMVpepFytZ-Rv8686QuyARfoML7bq-yff4tQMzGSlKldRpNI0aFJGK3llEvbadZ8wxWnHqM4o0OqZrsS5NtmLfwQhj97trWgpsyBkKtpcSXm_AI1ozVvnnMhsotQWEQS3cuB7zHwIj9TUtd0V-G4O2P34nFsMi0u-c53ub9vKshyUOOPhACsCh0qiRB5_KNkvXURA7agqZzRz2WoxB4kRk8ob0KtI3Tlfhoc4gVzYUbOyqL_yEPq1_x9CsxiGpo28gxD0_rKRxUs7GcVIg"
+        },
+        {
+          "type": "video",
+          "url": "https://cdn4.telesco.pe/file/419d45d8ef.mp4?token=T4W-w82EjZScPuSsFMt82eq-DTxrMfE3Z2o3yjuApYQnotoUyUSrKVAc9wO6Wp1cgHn7NMVpepFytZ-Rv8686QuyARfoML7bq-yff4tQMzGSlKldRpNI0aFJGK3llEvbadZ8wxWnHqM4o0OqZrsS5NtmLfwQhj97trWgpsyBkKtpcSXm_AI1ozVvnnMhsotQWEQS3cuB7zHwIj9TUtd0V-G4O2P34nFsMi0u-c53ub9vKshyUOOPhACsCh0qiRB5_KNkvXURA7agqZzRz2WoxB4kRk8ob0KtI3Tlfhoc4gVzYUbOyqL_yEPq1_x9CsxiGpo28gxD0_rKRxUs7GcVIg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "datetime": "2026-09-14T06:57:22+00:00",
+      "title": "Входную группу в отель Стерх \"отремонтировали\". Просто покрасили сколы черной краской. Напомним, что это безобразие нахо",
+      "text": "",
+      "link": "https://t.me/IGRgeoculture/1785",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/aHtzd9YRqM1cp5MF84tb0m-lYXheQ3FJNPXp5hMkaKQ7xFuUxlcbynbDJoU3JprVb6Auy7a9rscHFTKoTMSfP-RVCL6tOZFyWZ1SW81dLS3DYvtyga02BDgV3NxDSICJ49a4CAapv2CyWr_nVQpcM3Pe6gOUeBccafsBXMStMr0yzummw0277xj-sViCpy0p681AvQWXCkWHBahJZIaqM56OYPDUALeN3ThZxy2JvW75_0XkzIBcVerLP75jUVz4Oa4g6GLmklG4RWUZYObxEecyv8_IGjlys1GeGpi1REfuN9VtBYenId0tIeZSpaNEhAd7jTs1AJv5alch1NhdpQ.jpg"
+        },
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/LCc6isT2WGvQcQ0jPkbcVIk42Oor-Csqq2pORuk4G_CC1i86cmOoYWMJ2jVOuAuWec3j3-vyZkESwzDnEiNCqDJt3J6R3b6rCHTWoFU6igY34IT0tz67wYx7joLyKoIX5qK9ZVfhlJhA4Wns3kaz_n4s7LbO7IzZPjv1Y-pevwyEjh19sWLssPNOpYi9mDwlvGJN1KpFKSW_urooYzJEx1mU3jX7xqERKqyBgpTmkRpH9sT2YXAwhgCxGj5bqOU3Mve869r9kHRmcU9Negf_CRzR9Dcf-tCD--UQtHZyhWw7u5svsQYqEUA-7NuggofbaC9a5b7kLPtj6gUcqdqPpw.jpg"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "datetime": "2026-09-14T01:48:32+00:00",
+      "title": "Портящую центр города входную группу отеля Стерх так и не сделали. Деньги ушли  на политическую рекламу?",
+      "text": "",
+      "link": "https://t.me/IGRgeoculture/1784",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://cdn4.telesco.pe/file/r6xVxHpyb4dwdrz0RiyOw4aKFboS9ZUPqXuAvJLEzZyHUz6-6FJT4iYLaZonuGhZdQ5nbgcJitFbexZALXSmNGrGQgAi3kAWNcOtTi7b6WBVQnGjQcsz94g0LozqzaEuf7tvDimgEE5SLz_VrF7KR9fPBdoiJD5v_w-FJa03CwOt-ymE-2jME_MarR4k425rAW1FcVKZHxbOpcDKhxGdeqxVZ9OOIrgEi10MTkgOqyK2sMd2j1-P380d7Q6sa2HthWX3ZBmSjBAyCEgGkKT694pMu0klTVGjmdMrPs1TH4XAAGyG6nWk676cFHlyn5ePREBrUsbU66LjGYdXelOAEw"
+        },
+        {
+          "type": "video",
+          "url": "https://cdn4.telesco.pe/file/d64c605876.mp4?token=QlyCaW167nhmVDk20E96Stm00nFVi5zG5ah-9M9tgY4gHnPTJMX6uJjwks3C6-ghxvPSpWkiAnc7Ts29RilXMNwOwpX_HC0GVwcTVxRhxB8C-0YyeM1JQvKFBf1y1aJgJP8WP9P16eNeUJapIncxRlG8d4E_8UvepAv3H4Iw41D7tRh46Ll8r6GMbcxqXwmGGVHG4LtLT0WyGtqIMdntpd1Dtb4H6hueEi8dgJHZTVlrJtVF4oJSxKmcC7eglIxUAqg99OFSQ7mJAMQsdZ3anjzQatURSNXppsPdQMFe5bdXC6PG82Yy3uERW80fogk6wnp8vAgtXzgPq0tZVCe98YWOpGPPJgrUDPjvR3m_yJOfwRxPGsEpzEljmzYPM_ib305LxFaLPd8quvZ40nG9StDJNw4Nax8aoRuL-b8n-6oBPvwGr8dv3EhiyaKqNfG_gV9yGSa5ZYGah72x-eD3NdPOT5KFLz0rHzzCgVpF21iBWL2Mh-pu7emhKtuQ6RrzYc-exPxNBiFoTJJ4PSz4BcA7I0RbPUvvLPVvJS478EhQjqh_St8RHpk-3Wpaz8lMgpmY2V0l6NDEKTgkiX0IrwOxzwQ6jsb7EQRO3f6H6YGX2g2aDZYSErWvG97giqxzjDm64dEXG5M0_9VmmbDUMpm4EEasNpxSft6FvnJPxA8"
+        },
+        {
+          "type": "video",
+          "url": "https://cdn4.telesco.pe/file/d64c605876.mp4?token=QlyCaW167nhmVDk20E96Stm00nFVi5zG5ah-9M9tgY4gHnPTJMX6uJjwks3C6-ghxvPSpWkiAnc7Ts29RilXMNwOwpX_HC0GVwcTVxRhxB8C-0YyeM1JQvKFBf1y1aJgJP8WP9P16eNeUJapIncxRlG8d4E_8UvepAv3H4Iw41D7tRh46Ll8r6GMbcxqXwmGGVHG4LtLT0WyGtqIMdntpd1Dtb4H6hueEi8dgJHZTVlrJtVF4oJSxKmcC7eglIxUAqg99OFSQ7mJAMQsdZ3anjzQatURSNXppsPdQMFe5bdXC6PG82Yy3uERW80fogk6wnp8vAgtXzgPq0tZVCe98YWOpGPPJgrUDPjvR3m_yJOfwRxPGsEpzEljmzYPM_ib305LxFaLPd8quvZ40nG9StDJNw4Nax8aoRuL-b8n-6oBPvwGr8dv3EhiyaKqNfG_gV9yGSa5ZYGah72x-eD3NdPOT5KFLz0rHzzCgVpF21iBWL2Mh-pu7emhKtuQ6RrzYc-exPxNBiFoTJJ4PSz4BcA7I0RbPUvvLPVvJS478EhQjqh_St8RHpk-3Wpaz8lMgpmY2V0l6NDEKTgkiX0IrwOxzwQ6jsb7EQRO3f6H6YGX2g2aDZYSErWvG97giqxzjDm64dEXG5M0_9VmmbDUMpm4EEasNpxSft6FvnJPxA8"
+        }
+      ],
+      "source": {
+        "kind": "telegram",
+        "name": "@IGRgeoculture",
+        "url": "https://t.me/IGRgeoculture"
+      }
     }
   ]
 }
